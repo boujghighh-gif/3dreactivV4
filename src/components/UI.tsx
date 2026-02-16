@@ -40,7 +40,7 @@ const UI: React.FC = () => {
       {/* Audio Element linked to public/mysong.mp3 */}
       <audio 
         ref={audioRef} 
-        src="/mysong.mp3" 
+        src="mysong.mp3" 
         loop 
       />
 
